@@ -3,3 +3,5 @@ task check << {
 	println System.getenv("TERM")
 	println "########################"
 }
+
+task assemble
