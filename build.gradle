@@ -1,0 +1,5 @@
+task check << {
+	println "########################"
+	println System.getenv("TERM")
+	println "########################"
+}
