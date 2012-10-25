@@ -5,3 +5,4 @@ task check << {
 }
 
 task assemble
+assemble.dependsOn check
