@@ -6,3 +6,7 @@ task check << {
 
 task assemble
 assemble.dependsOn check
+
+task foo << {
+	println "foo"
+}
