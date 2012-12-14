@@ -10,3 +10,7 @@ assemble.dependsOn check
 task foo << {
 	println "foo"
 }
+
+task wrapper(type:Wrapper){
+	gradleVersion = "1.3"
+}
